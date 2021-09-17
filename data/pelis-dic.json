@@ -1,0 +1,22 @@
+{
+    "pelisDic":[{
+        "nombre": "Spencer",
+        "estreno": "05 de Diciembre de 2021",
+        "img": "resources/spencer.jpg"
+    },
+        {
+        "nombre": "Flee",
+        "estreno": "03 de Diciembre de 2021",
+        "img": "resources/flee.jpg"
+    },
+    {
+        "nombre": "Scream",
+        "estreno": "17 de Diciembre de 2021",
+        "img": "resources/scream.jpg"
+    },
+    {
+        "nombre": "Muerte en el Nilo",
+        "estreno": "22 de Diciembre de 2021",
+        "img": "resources/muerte.jpg"
+    }]
+}

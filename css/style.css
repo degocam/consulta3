@@ -1,0 +1,386 @@
+body{
+    background-image: url("../resources/fondo-desktop.jpg");
+    color: white;
+}
+
+#grilla{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 0vh 5vw 0vh 5vw;
+}
+
+#cardPeli{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10vh 4vw 3vh 0vw;
+}
+
+#main-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 5vh 0vw 5vh 0vw;
+}
+
+#main-navbar img{
+    height: 15vh;
+}
+
+a{
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+body img{
+    height: 50vh;
+    width: auto;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    line-height: 19px;
+    padding: 10vh 0vw 5vh 5vw;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    line-height: 19px;
+    padding-bottom: 1vh;
+}
+
+h3{
+    font-size: 19px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 19px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+}
+
+.btn-horarios{
+    background-color: #99002E;
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+button:active{
+    border-radius: 10px;
+    border: 10px;
+    height: 2rem;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: inherit;
+    font-size: 1em;
+}
+
+/*Estilos página Comprar Entradas*/
+
+#comprarEntradas{
+    display: flex;
+    margin: 7vh 5vw 3vh 8vw;
+}
+
+.infoPeli{
+    width: 30vw;
+}
+
+.cardEntradas{
+    width: 60vw;
+    padding-left: 9vw;
+}
+
+#buyTicket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#qEntradas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#qEntradas img{
+    height: 20vh;
+}
+
+#numEntradas{
+    border-color: #99002E;
+    width: 6em;
+    height: 3em;
+}
+
+#comprar{
+    background-color: #99002E;
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#comprar:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+#comprar:active{
+    border-radius: 0px;
+    border: 10px;
+    height: 2rem;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+#buyTicket button{
+  margin-top: 2vh;
+}
+
+/*Estos son los estilos del modal que muestra el total*/
+#modalTotal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .modalContenido {
+    background-image: url("../resources/fondo-modal1.png");
+    background-size: 100%;
+    margin: 15% auto;
+    padding-left: 5vw;
+    padding-top: 3vh;
+    border: 1px solid #888;
+    width: 80%;
+    height: 40%;
+    color:  #5B472D;
+    border-radius: 12px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*Esta es la sección de confitería*/
+
+#titleConfiteria{
+    padding: 10vh 10vw 5vh 10vw;
+}
+
+#titleConfiteria h1{
+    font-size: 2rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    line-height: 19px;
+    padding-bottom: 1vh;
+}
+
+#titleConfiteria p{
+    font-size: 1.5em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    padding-bottom: 1vh;
+}
+
+
+#confites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+#divCombos{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+#otrosDulces{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+#dulcesIndividuales{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.producto{
+    justify-content: center;
+}
+
+.producto img{
+    width: auto;
+    height: 15vh;
+}
+
+.producto h2{
+    font-size: 1rem;
+    text-align: left;
+}
+/*Estos son los estilos de los botones que muestran los distintos productos*/
+#combos{
+    width: 80vw;
+    height: 5vh;
+    background-color: #99002E;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 2vh;
+}
+
+#combos:hover{
+    background-color: black;
+}
+
+#otrosConfites{
+    width: 80vw;
+    height: 5vh;
+    background-color: #99002E;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 2vh;
+}
+
+#otrosConfites:hover{
+    background-color: black;
+}
+
+#individuales{
+    width: 80vw;
+    height: 5vh;
+    background-color: #99002E;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 2vh;
+}
+
+#individuales:hover{
+    background-color: black;
+}
+
+/*Estilos Próximos Estrenos*/
+
+#pelisSept{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisOct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisNov{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisDic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.pelisMes{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilos página promociones*/
+
+#promos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#promos img{
+    border-radius: 15px;
+    width: 70vw;
+    height: auto;
+    padding-bottom: 4vh;
+}

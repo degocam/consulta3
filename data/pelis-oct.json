@@ -1,0 +1,22 @@
+{
+    "pelisOct":[{
+        "nombre": "La Familia Adams 2",
+        "estreno": "01 de Octubre de 2021",
+        "img": "resources/adams.jpg"
+    },
+        {
+        "nombre": "No Hay Tiempo para Morir",
+        "estreno": "08 de Octubre de 2021",
+        "img": "resources/bond.jpg"
+    },
+    {
+        "nombre": "Dune",
+        "estreno": "17 de Octubre de 2021",
+        "img": "resources/dune.jpg"
+    },
+    {
+        "nombre": "The French Dispatch",
+        "estreno": "22 de Octubre de 2021",
+        "img": "resources/french.jpg"
+    }]
+}
